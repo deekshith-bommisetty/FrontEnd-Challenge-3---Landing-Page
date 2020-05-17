@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+Thanks for checking out this front-end coding challenge. <br>
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
 **Mange Landing Page** challenge involved building a static responsive site using HTML, CSS and JavaScript. HTML and CSS was used for layouting and posiitoning aspects. A carousel for the testimonial section was required to be implemented which was done along with JavaScript. The challenge involves both desktop and mobile version and this site is based on Mobile First. 
@@ -14,7 +14,7 @@ Thanks for checking out this front-end coding challenge.
 <p align="right">
 <SUB>[Mobile version]</SUB>
 </p>
-<img src="./design/mobile-design-dark.jpg" 
+<img src="./design/mobile-design.jpg" 
 align="right" alt="mobile-preview"  width="30%"
 
 ## The challenge
@@ -41,3 +41,7 @@ If you would like the Sketch file in order to inspect the design in more detail 
 You will find all the required assets in the `/images` folder. The assets are already optimized.
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+
+## Hosted Link of the Project
+
+Please click here :
