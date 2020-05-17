@@ -1,0 +1,472 @@
+/* General Styling */
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+.btn-primary {
+    background-color: hsl(12, 88%, 59%) ;
+    border-color: hsl(12, 88%, 59%);
+    font-weight: 700;
+    
+}
+.btn-primary:hover {
+    background-color: hsl(0, 0%, 98%);
+    border-color: hsl(0, 0%, 98%);
+    color:hsl(12, 88%, 59%);
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.btn {
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(images/icon-hamburger.svg);
+}
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    
+}
+#title-pattern {
+    position: absolute;
+    right: -7rem;
+    top: -12rem;
+    width: 50vw;    
+}
+#feat-pattern { 
+    position: absolute;
+    left: -20rem; 
+    top: -21rem;    
+    max-width: 700px;     
+}
+#title, #feature{
+    position: relative;     
+    overflow-x: hidden;     
+}
+.container-fluid{
+    padding: 2% 10%;
+}
+
+/* Title section */
+
+/* Navigation Bar Styling */
+#nav-cont {
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-nav {
+    margin-left: calc(50% - 333.644px);
+}
+.nav-btn {
+    position: absolute;
+    right: 0;
+    margin-right: 142.313px;
+    top: 33.452px;
+}
+
+/* Middle part of the title section */
+#title-mid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#intro {
+    float: right;
+}
+#title-mid h1 {
+    margin-top: 4rem;
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+}
+#title-mid p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+/* feature section */
+#feature h3 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.col1 {
+    padding-right: 3rem;
+}
+.col2 {
+    padding-left: 3rem;
+}
+.feat-no{
+    display: inline-block;
+    margin-right: 1rem;
+    border-radius: 25px;
+    background: hsl(12, 88%, 59%);
+    width: 5rem;
+    height: 3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 0.6rem;
+}
+.feat-head {
+    display: inline-block;
+    font-weight: 800;
+    color: black;
+}
+.feat-txt {
+    margin-left: 5.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+/* Testimonials Section */
+#testimonial {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+#test {
+    text-align: center;
+}
+#test.container-fluid {
+    padding: 0px;
+}
+#test h3 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#test-btn {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#car.container-fluid {
+    padding: 0;
+}
+.card {
+    width: 500px;
+    text-align: center;
+    position: relative;
+}
+.card-body{
+    padding-top: 0px;
+    padding-bottom: 1rem;
+    background-color: hsl(0, 0%, 98%);
+    
+}
+.img-test {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    left: calc(50% - 2.5rem);
+    bottom: 1.5rem;
+}
+.test-name {
+    margin-bottom: 0;
+
+}
+.slick-slide {
+    margin: 2.5rem 10px;
+}
+.slick-list {
+    margin: 0 -10px;
+}
+
+/* Get Started Section */
+#started {
+    position: relative;
+    overflow: hidden;
+}
+#start{
+    padding: 3% calc(10% + 2rem);
+    background-color: hsl(12, 88%, 59%);
+    position: relative;
+    z-index: -1;
+}
+#start .btn-primary{
+    background-color:white;
+    border-color: white;
+    color: hsl(12, 88%, 59%);
+}
+#start-pattern {
+    position: absolute;
+    opacity: 0.1;
+    z-index: 0;
+    overflow: hidden;
+}
+#start2-pattern{
+    position: absolute;
+    opacity: 0.1;
+    bottom: 5rem;
+    left: 78rem;
+}
+#start h3 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;   
+}
+#start .btn-primary:not(:disabled):not(.disabled).active, 
+#start .btn-primary:not(:disabled):not(.disabled):active, 
+#start .show>.btn-primary.dropdown-toggle {
+    background-color: white ;
+    border-color: white;
+    font-weight: 700;
+    color: hsl(12, 88%, 59%) ;
+}
+#start a{
+    float: right;
+    margin-top: 8px;
+} 
+
+/* contact section */
+#contact {
+    background-color:  black;
+    position: relative;
+    z-index: 1;
+}
+#contact .container-fluid {
+    padding: 3rem calc 10% 1rem 10%;
+    height: 224px;
+    position: relative;   
+}
+#search {
+    margin-bottom: 2rem;
+    position: absolute;
+    right: 168.083px;
+}
+.form-control {
+    width: 15rem;
+    border-radius: 20px;
+    display: inline-block;
+    height: 46.388px;
+}
+.btn-start {
+    width: 4rem;
+    margin-left: 0.5rem;
+    height: 45.388px;
+}
+#tab{
+    display: inline-block;
+    margin-bottom: 2rem;
+    position: absolute;
+    right: calc(50% - 70px);
+}
+td {
+    padding: 5px;
+    text-align: left;
+}
+td a {
+    color: grey;
+    font-weight: 700;
+}
+.pd-l {
+    padding-left: 6rem;
+
+}
+.pd-r {
+    padding-right: 6rem;
+}
+#icons{
+    margin-bottom: 1rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+.icon-img {
+    margin-right: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-bottom: 2rem;
+}
+.log {
+    margin-bottom: 2rem;
+    color: white;
+    height: 28px;
+}
+#contact p {
+    font-weight: 500;
+    color: grey;
+    text-align: right;
+    padding-right: 3rem;
+    position: relative; 
+    top: 3rem;
+    left: 3rem;
+}
+@media  (min-width:992px) and (max-width: 1211px) {
+    /* Title section */
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+    .navbar-nav {
+        margin-left: calc(50% - 248.9065px);
+    }
+    .nav-btn {
+        margin-right: 90px;
+    }
+    #intro {
+        float: none;
+    }
+    #title-mid {
+        text-align: center;
+    }
+    /* feature section */
+    .col1 {
+        padding-right: 15px;
+    }
+    .col2 {
+        padding-left: 15px;
+    }
+    /* contact section */
+    .pd-l {
+        padding-left: 1rem;
+    }
+    .pd-r {
+        padding-right: 1rem;
+    }
+    #tab{
+        right: calc(50% - 20px);
+    }
+    #contact p {
+        padding-right: 6rem;
+        position: relative; 
+    }
+}
+@media (max-width: 991px) {
+    /* Title Section */
+    #nav-get {
+        display: none;
+    }
+    .navbar-nav {
+        margin-left: 0;
+    }
+    #intro {
+        float: none;
+        height: 400px;
+        width: 400px;
+    }
+    #title-mid {
+        text-align: center;
+    }
+    #title-pattern {  
+        right: -8rem;
+        top: -7rem;
+        width: 100vw;
+    }
+    #title, #feature{
+        margin: 0rem;
+    }
+    /* feature section */
+    #feat-pattern { 
+        display: none;
+    }
+    .feat-no{
+        margin-bottom: 0px;
+    }
+    .feat-head {
+        margin-bottom: 0;
+    }
+    .feat-txt {
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+    /* feature section */
+    .col1 {
+        text-align: center; 
+        padding-right: 0; 
+        padding-left: 0;
+        margin-bottom: 2rem;     
+    }
+    .col2 {
+        
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .lab-cl {
+        background-color: hsl(13, 100%, 96%);
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    /* get started section */
+    #start {
+        text-align: center;
+    }
+    #start h3 {
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #start a{
+        float: none;
+        margin-top: none;
+        margin-bottom: 3rem;
+    }
+    #start-pattern {
+        right: 22rem;
+        top: 2rem;
+        width: 400px;
+    }
+    br {
+        display: none;
+    }
+    /* contact section */
+    #contact .container-fluid {
+        padding: 3rem 10% 1rem 10%;
+        height: 500px;
+        position: static; 
+        text-align: center;   
+    }
+    #search {
+        margin-bottom: 3rem;
+        position: static;
+    }
+    #tab{
+        display: block
+        margin-left: 2rem; 
+        margin-right: 2rem;
+        position: static;
+    }
+    .pd-l {
+        padding-left: 3rem;
+    
+    }
+    .pd-r {
+        padding-right: 3rem;
+    }
+    #icons{
+        display: block;
+        position: static;
+    }
+    .icon-img {
+        margin-right: 1rem;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    #contact p {
+        text-align: left;
+        padding-right: 0;
+        position: static; 
+        text-align: center;
+    }
+
+}
+/* .slick-slider{
+    overflow-x: hidden;
+} */
