@@ -3,6 +3,7 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge. <br>
+
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
 **Mange Landing Page** challenge involved building a static responsive site using HTML, CSS and JavaScript. HTML and CSS was used for layouting and posiitoning aspects. A carousel for the testimonial section was required to be implemented which was done along with JavaScript. The challenge involves both desktop and mobile version and this site is based on Mobile First. 
@@ -44,4 +45,4 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 
 ## Hosted Link of the Project
 
-Please click here :
+Please click here : https://deekshith-bommisetty.github.io/FrontEnd-Challenge-3---Landing-Page/
